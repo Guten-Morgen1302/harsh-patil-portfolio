@@ -15,7 +15,7 @@ export default function About() {
             <div className="relative w-full max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl transform rotate-6 group-hover:rotate-3 transition-transform duration-300 opacity-75"></div>
               <Image
-                src="https://raw.githubusercontent.com/Guten-Morgen1302/harsh-patil-portfolio/main/harsh%20patil.png"
+                src="https://raw.githubusercontent.com/Guten-Morgen1302/harsh-patil-portfolio/master/harsh%20patil.png"
                 alt="Harsh Patil"
                 width={774}
                 height={774}
