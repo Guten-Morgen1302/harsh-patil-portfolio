@@ -153,8 +153,31 @@ export default function Projects() {
             </div>
           ))}
         </div>
+        
+        {/* View All Projects Button */}
+        <div className="flex justify-center mt-12">
+          <Link
+            href="https://github.com/Guten-Morgen1302?tab=repositories"
+            className="flex items-center justify-center px-6 py-4 border-2 border-transparent bg-gradient-to-r from-blue-400 to-purple-500 text-white rounded-lg shadow-md transform hover:scale-95 hover:shadow-lg transition-all duration-300"
+          >
+            <span className="text-lg font-semibold mr-4">View All Projects</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-white transform transition-all duration-300 ease-in-out group-hover:translate-x-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </Link>
+        </div>
       </div>
     </section>
   )
 }
-
