@@ -1,23 +1,23 @@
-# Harsh Patil Portfolio
+# Harsh Patil Portfolio 🌐
 
 This is a modern and responsive portfolio showcasing the skills, projects, and work of Harsh Patil, a web developer based in Mumbai, India. The portfolio highlights various web development projects, each demonstrating expertise in technologies such as HTML, CSS, JavaScript, React, and more.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **HTML**: For the structure and content of the website.
 - **CSS**: For styling and responsiveness.
 - **JavaScript**: For adding dynamic functionality.
 - **React**: For building the user interface and managing the component structure.
 - **TypeScript**: For adding static typing to JavaScript and improving code quality.
-  
-## Features
+
+## ✨ Features
 
 - **Modern Design**: Clean, sleek, and professional design to represent the skills and work of the developer.
 - **Responsive**: Fully responsive layout that looks great on all devices, including mobiles, tablets, and desktops.
 - **Project Showcase**: Highlights various web development projects, demonstrating the developer’s expertise in different areas of web development.
 - **Contact Section**: Easy way to get in touch with Harsh Patil.
 
-## Getting Started
+## 🚀 Getting Started
 
 To get a local copy up and running, follow these simple steps:
 
@@ -47,7 +47,7 @@ Copy
 npm start
 The application should now be running on http://localhost:3000.
 
-Contributing
+🤝 Contributing
 If you'd like to contribute to this portfolio, feel free to fork the repository and submit a pull request with your changes. Contributions are always welcome!
 
 Steps to Contribute
@@ -56,9 +56,9 @@ Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Open a pull request.
-License
+📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+🙏 Acknowledgements
 Inspiration for design and layout comes from various modern web portfolio trends.
 Thanks to the open-source community for providing useful resources and tutorials.
