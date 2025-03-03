@@ -27,23 +27,19 @@ To get a local copy up and running, follow these simple steps:
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Guten-Morgen1302/harsh-patil-portfolio.git
-Navigate into the project folder:
+Run the following commands in your terminal:
 
-bash
-Copy
+```bash
+# Clone the repository
+git clone https://github.com/Guten-Morgen1302/harsh-patil-portfolio.git
+
+# Navigate into the project folder
 cd harsh-patil-portfolio
-Install dependencies:
 
-bash
-Copy
+# Install dependencies
 npm install
-Start the development server:
 
-bash
-Copy
+# Start the development server
 npm start
 The application should now be running on http://localhost:3000.
 
