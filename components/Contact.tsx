@@ -39,7 +39,7 @@ export default function Contact() {
                   type="text"
                   id="name"
                   className="w-full bg-gray-700/50 border border-gray-600 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                  placeholder="Harsh Patil"
+                  placeholder="eg: Harsh Patil"
                   required
                 />
               </div>
@@ -51,7 +51,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   className="w-full bg-gray-700/50 border border-gray-600 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                  placeholder="harshabhaypatil@gmail.com"
+                  placeholder="eg: harshabhaypatil@gmail.com"
                   required
                 />
               </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                   id="message"
                   rows={4}
                   className="w-full bg-gray-700/50 border border-gray-600 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                  placeholder="Hello, I'd like to talk about..."
+                  placeholder="eg: Hello, I'd like to talk about..."
                   required
                 ></textarea>
               </div>
