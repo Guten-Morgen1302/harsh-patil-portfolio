@@ -8,7 +8,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     technologies: ["React", "OpenWeather API", "Tailwind CSS"],
-    liveDemo: "#",
+    liveDemo: "https://weather-app-25.vercel.app/",
     github: "https://github.com/Guten-Morgen1302/weather-app",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     liveDemo: "#",
-    github: "#",
+    github: "https://github.com/Guten-Morgen1302/E-commerce-Platform",
   },
   {
     title: "Task Management System",
@@ -27,7 +27,7 @@ const projects = [
       "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     technologies: ["React", "Firebase", "Material UI"],
     liveDemo: "#",
-    github: "#",
+    github: "https://github.com/Guten-Morgen1302/Task-Management-System",
   },
   {
     title: "Social Media Dashboard",
@@ -36,7 +36,7 @@ const projects = [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80",
     technologies: ["Vue.js", "Express", "Chart.js"],
     liveDemo: "#",
-    github: "#",
+    github: "https://github.com/Guten-Morgen1302/Social-Media-Dashboard",
   },
   {
     title: "Fitness Tracking App",
@@ -45,7 +45,7 @@ const projects = [
       "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     technologies: ["React Native", "Node.js", "MongoDB"],
     liveDemo: "#",
-    github: "#",
+    github: "https://github.com/Guten-Morgen1302/FitnessHub",
   },
   {
     title: "Recipe Sharing Platform",
@@ -54,7 +54,7 @@ const projects = [
       "https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     technologies: ["Next.js", "MongoDB", "Tailwind CSS"],
     liveDemo: "#",
-    github: "#",
+    github: "https://github.com/Guten-Morgen1302/Recipe-Sharing-Platform",
   },
 ]
 
