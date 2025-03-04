@@ -63,7 +63,7 @@ export default function Hero({ scrollToSection }) {
             Web Developer & Designer
           </h2>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-0 animate-[fadeIn_1s_ease_0.9s_forwards]">
-            Creating beautiful, functional websites with cutting-edge technologies
+            Building modern, user-friendly websites that look great and work perfectly
           </p>
           <a
             href="#projects"
