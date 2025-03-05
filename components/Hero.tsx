@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 
 export default function Hero({ scrollToSection }) {
-  const [typedName, setTypedName] = useState("");
+  const [typedText, setTypedText] = useState("");
   const [typingIndex, setTypingIndex] = useState(0);
   const [isTypingFinished, setIsTypingFinished] = useState(false);
+  const [currentRole, setCurrentRole] = useState("Web Developer & Designer"); // Default text
 
   const scrollToProjects = (e) => {
     e.preventDefault();
@@ -15,26 +16,29 @@ export default function Hero({ scrollToSection }) {
     scrollToSection("about");
   };
 
-  // Typing effect logic for "Harsh Patil"
+  // Typing effect logic for the role switching between "Web Developer & Designer" and "UI/UX Developer"
   useEffect(() => {
-    const name = "Harsh Patil";
-    const typingSpeed = 100; // Speed of typing
-    const pauseDuration = 1000; // Pause duration (3 seconds) after typing finishes
+    const roles = ["Web Developer & Designer", "UI/UX Developer"];
+    const typingSpeed = 120; // Speed of typing (slower for a smoother effect)
+    const pauseDuration = 1500; // Pause duration before switching roles
 
     // Function to handle the typing effect
     const typeText = () => {
-      if (typingIndex < name.length) {
-        setTypedName((prev) => prev + name[typingIndex]);
+      if (typingIndex < currentRole.length) {
+        setTypedText((prev) => prev + currentRole[typingIndex]);
         setTypingIndex((prev) => prev + 1);
       } else {
-        // Once typing finishes, wait for 3 seconds and reset
         if (!isTypingFinished) {
           setIsTypingFinished(true);
           setTimeout(() => {
             setIsTypingFinished(false);
             setTypingIndex(0); // Reset typing index to start over
-            setTypedName(""); // Clear the typed name
-          }, pauseDuration); // Wait for 3 seconds before restarting
+            setTypedText(""); // Clear the typed text
+            // Switch between the roles
+            setCurrentRole((prev) =>
+              prev === roles[0] ? roles[1] : roles[0]
+            );
+          }, pauseDuration); // Wait for 1.5 seconds before switching
         }
       }
     };
@@ -43,7 +47,7 @@ export default function Hero({ scrollToSection }) {
     const typingInterval = setInterval(typeText, typingSpeed);
 
     return () => clearInterval(typingInterval); // Cleanup interval on unmount
-  }, [typingIndex, isTypingFinished]); // Runs when typingIndex or isTypingFinished changes
+  }, [typingIndex, isTypingFinished, currentRole]); // Runs when typingIndex, isTypingFinished, or currentRole changes
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -56,11 +60,15 @@ export default function Hero({ scrollToSection }) {
           <h1 className="text-4xl md:text-6xl font-bold mb-4 opacity-0 animate-[fadeInDown_1s_ease_0.5s_forwards]">
             Hi, I'm{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-              {typedName}
+              Harsh Patil
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl mb-6 opacity-0 animate-[fadeInUp_1s_ease_0.7s_forwards]">
-            Web Developer & Designer
+            <span
+              className={`text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 animate-pulse-glow`}
+            >
+              {typedText}
+            </span>
           </h2>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-0 animate-[fadeIn_1s_ease_0.9s_forwards]">
             Building modern, user-friendly websites that look great and work perfectly
