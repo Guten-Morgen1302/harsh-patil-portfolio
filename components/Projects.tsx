@@ -26,7 +26,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     technologies: ["React", "Firebase", "Material UI"],
-    liveDemo: "#",
+    liveDemo: "https://task-tracking-platform.vercel.app/",
     github: "https://github.com/Guten-Morgen1302/Task-Management-System",
   },
   {
